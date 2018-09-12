@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: .2rem;
+    margin:0 auto;
+    max-width: 140rem;
     
     @include respond(tab-port){
         grid-template-columns: 1fr;
@@ -39,7 +41,7 @@
         cursor: pointer;
     }
     
-    &__card:hover &__title {
+    &__card:hover &__title{
         color:$colorSecondary;
     }
     
