@@ -1,8 +1,10 @@
 .port{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: .1rem;
+    grid-gap: .2rem;
     color:#fff;
+    max-width: 140rem;
+    margin: 0 auto;
     
     @include respond(phone-land){
         grid-template-columns: 1fr;

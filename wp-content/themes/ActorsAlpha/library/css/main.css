@@ -1189,6 +1189,10 @@ a img.aligncenter {
   color: #fff;
   padding: 5rem 0;
 }
+.footer__menu-content {
+  max-width: 120rem;
+  margin: 0 auto;
+}
 .footer .menu-item i._mi {
   font-size: 2em;
 }
@@ -1463,8 +1467,10 @@ div.wpcf7 input, div.wpcf7 textarea {
 .port {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0.1rem;
+  grid-gap: 0.2rem;
   color: #fff;
+  max-width: 140rem;
+  margin: 0 auto;
 }
 @media (max-width: 43.75em) {
   .port {
@@ -1585,7 +1591,6 @@ div.wpcf7 input, div.wpcf7 textarea {
 }
 @media (max-width: 43.75em) {
   .promo__title--large {
-    text-align: left;
     font-size: 3rem;
     max-width: 70rem;
   }
@@ -1605,19 +1610,36 @@ div.wpcf7 input, div.wpcf7 textarea {
   line-height: 145%;
 }
 .promo__button-container {
-  padding: 4rem 0;
+  padding: 0 2rem;
 }
 .promo__button-container--center {
   margin: 0 auto;
   width: 25%;
+  overflow: hidden;
 }
 @media (max-width: 43.75em) {
   .promo__button-container--center {
-    margin: 0;
+    width: 45%;
+  }
+}
+@media (max-width: 37.5em) {
+  .promo__button-container--center {
+    width: 65%;
+  }
+}
+@media (max-width: 43.75em) {
+  .promo__button-container--center a {
+    display: inline-block;
+    width: 100%;
   }
 }
 .promo__btn-text {
   font-size: 2.2rem;
+}
+@media (max-width: 43.75em) {
+  .promo__btn-text {
+    font-size: 1.8rem;
+  }
 }
 .resume h3, .resume h4, .resume p {
   margin-bottom: 1rem;
