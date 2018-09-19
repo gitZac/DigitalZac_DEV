@@ -55,7 +55,8 @@ p{
         &:after{
             content: "";
             display: block;
-            height: 3px;
+            height: 2px;
+            border-radius: 2rem;
             width: 10%;
             background-color: #0090c5;
             margin-top: 3rem;
@@ -64,6 +65,10 @@ p{
             top:80%;
             left:50%;
             transform: translate(-50%,-50%);
+            
+            @include respond (phone-land){
+                width: 25%;      
+            }
         }        
     }
     
