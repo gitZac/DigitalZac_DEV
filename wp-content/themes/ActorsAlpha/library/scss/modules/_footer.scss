@@ -33,6 +33,7 @@
     text-decoration: none;
     padding: 1.5rem;
     display: block;
+    -webkit-transition: all .2s;
     transition: all .2s;
     background-color: rgba(#fff, .05);
 }
@@ -40,6 +41,7 @@
 .footer__menu-content .menu-item a:hover,
 .footer__menu-content .menu-item a:active{
     background-color: rgba(#fff, .08);
+    -webkit-transform: translateY(-3px);
     transform: translateY(-3px);  
     border-bottom: transparent;
 }
@@ -48,6 +50,7 @@
 .footer__social-content .menu-item a:visited{
     color:#fff;
     display: block;
+    -webkit-transition: all .2s;
     transition: all .2s;
     background-color: transparent;
 }
@@ -55,6 +58,7 @@
 .footer__social-content .menu-item a:hover,
 .footer__social-content .menu-item a:active{
     background-color: transparent;
+    -webkit-transform: translateY(-3);
     transform: translateY(-3);  
     border-bottom: transparent;
 }
